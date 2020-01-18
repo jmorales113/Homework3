@@ -26,3 +26,33 @@ h2 {
     display: block;
     padding: 20px;
 }
+
+.rectangle {
+    height: 200px;
+    width: 800px;
+    background-color: white;
+    border-style: dotted;
+    max-width: 960px;
+    margin: auto;
+    display: block;
+    
+  }
+
+  .button1 {
+      border-radius: 50%;
+      color: white;
+      background-color: red;
+      position: fixed;
+      left: 350px;
+      top: 390px;
+
+  }
+
+  .button2 {
+    border-radius: 50%;
+    color: white;
+    background-color: gray;
+    position: fixed;
+    right: 350px;
+    top: 390px
+  }
