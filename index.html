@@ -19,16 +19,18 @@
         <h2>Generate a Password</h2>
         <hr />
         
-        <input type= "text" id="text-box">
+        <div id="text-box"></div>
         
         <hr />
 
-        <button onclick = "" class ="button1">Generate Password</button>
+        <button onclick = "generatePassword()" class ="button1">Generate Password</button>
+        <p id = "lengthName">Length: 8</p>
+        <input type ="range" class = "slider" id = "sliderLength" min="8" max = "128" value ="8" width ="200">
         <button onclick = "" class ="button2">Copy to Clipboard</button>
          
          
     </div> 
-
+    <script src="script.js"></script>
         
     
 </body>
