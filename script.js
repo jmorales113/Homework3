@@ -12,10 +12,10 @@ function generatePassword() {
  
     document.getElementById("text-box").innerHTML = password
 }
-
 sliderLength.onclick = function(){
     lengthName.innerHTML = "Length:" + sliderLength.value
     generatePassword()
+
 }
 
 //html input just needs id
