@@ -18,5 +18,3 @@ sliderLength.onclick = function(){
 
 }
 
-//html input just needs id
-// need another get element by Id
