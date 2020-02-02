@@ -16,6 +16,9 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    text-align: center;
+}
 
 .container {
     margin-top: 20px;
@@ -55,6 +58,12 @@ h2 {
     position: fixed;
     right: 350px;
     top: 390px
+  }
+
+  .slider{
+      width: 500px;
+      margin-right: 300px;
+      
   }
 
   @media (min-width: 320px) and (max-width: 480px) {
